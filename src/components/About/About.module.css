@@ -4,3 +4,8 @@
     background-color: #ffffff;
 }
 
+@media only screen and (max-width: 520px) {
+    .container {
+        height: 120vh;
+    }
+}
