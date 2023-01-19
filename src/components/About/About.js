@@ -5,7 +5,7 @@ export default function About({ about }) {
             <div id='about' className='container'>
                 <div className="hero min-h-screen">
                     <div className="hero-content flex-col lg:flex-row">
-                        <Image src='/images/pp.jpg' alt='profile photo' width={400} height={400} className="max-w-xs rounded-full shadow-2xl sm:max-w-xs  hover:max-w-xs " />
+                        <Image src='/Resume/images/pp.jpg' alt='profile photo' width={400} height={400} className="max-w-xs rounded-full shadow-2xl sm:max-w-xs  hover:max-w-xs " />
                         <div className="ml-4 mr-4">
                             <div className='flex justify-start'>
                                 <h1 className="text-4xl font-bold sm:text-6xl">{about.title}</h1>
@@ -24,7 +24,7 @@ export default function About({ about }) {
                             <p className="font-sans text-xl text-justify py-3 sm:text-2xl">  {about.message3}</p>
                             <a
                                 className="btn btn-primary mt-1"
-                                href={'/Muhammed_Adel_CV.pdf'}
+                                href={'/Resume/Muhammed_Adel_CV.pdf'}
                                 aria-label="Resume/CV"
                                 role="button"
                             >

@@ -17,7 +17,7 @@ export default function Experience({ experience }) {
                 {experience.experience.map((e, index) => (
                     <div key={index} className="flex min-w-full shadow-xl mb-5 p-5 bg-base-100 rounded-lg  justify-start flex-col lg:flex-row">
                         <div className="lg:rounded-lg sm:rounded-lg lg:shadow-xl bg-base-100 sm:w-72 sm:shadow-none">
-                            <figure><Image width={144} height={144} className="min-w-full rounded-lg" src={e.imageSrc} alt={e.company} /></figure>
+                            <figure><Image width={144} height={144} className="min-w-full rounded-lg" src={`/Resume${e.imageSrc}`} alt={e.company} /></figure>
                             <h2 className="font-bold m-4 p-5 text-3xl justify-center flex">{e.company}</h2>
                         </div>
 
