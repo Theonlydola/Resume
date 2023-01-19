@@ -8,9 +8,9 @@ html {
     background-color: #ffffff;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 520px) {
     .container {
-        height: 270vh;
+        height: 300vh;
     }
 }
 
