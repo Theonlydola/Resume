@@ -2,9 +2,9 @@ import Image from 'next/image'
 export default function About({ about }) {
     return (
         <>
-            <div id='about' className='container'>
+            <div className='container'>
                 <div className="hero min-h-screen">
-                    <div className="hero-content flex-col lg:flex-row">
+                    <div id='about' className="hero-content flex-col lg:flex-row">
                         <Image src='/Resume/images/pp.jpg' alt='profile photo' width={400} height={400} className=" rounded-full shadow-2xl w-1/2" />
                         <div className="ml-4 mr-4">
                             <div className='flex justify-start'>
