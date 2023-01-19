@@ -1,6 +1,7 @@
 import ProjectCard from "./ProjectCard";
 export default function Projects({ repoList }) {
     return (
+        <>
           <div>
                 <h1 className="text-4xl font-bold p-5 pb-6 sm:text-6xl">Projects</h1>
           </div>
@@ -12,5 +13,6 @@ export default function Projects({ repoList }) {
                 ))}
             </div>
         </div>
+        </>
     )
 }
