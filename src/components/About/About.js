@@ -25,7 +25,7 @@ export default function About({ about }) {
                             <p className="font-sans text-xl text-justify py-3 sm:text-2xl">  {about.message3}</p>
                             <a
                                 className="btn btn-primary mt-1"
-                                href={'/Muhammed_Adel_CV.pdf'}
+                                href={'/Resume/Muhammed_Adel_CV.pdf'}
                                 aria-label="Resume/CV"
                                 role="button"
                             >
