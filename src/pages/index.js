@@ -8,7 +8,6 @@ import { fetchRepos } from '@/helpers/fetchRepos'
 import Projects from '@/components/Projects/Projects'
 import { useEffect, useState } from 'react'
 import Header from '@/components/Header/Header'
-import Script from 'next/script'
 
 export async function getStaticProps({ }) {
   const repoList = await fetchRepos();
