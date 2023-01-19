@@ -38,7 +38,6 @@ export default function Home({ repoList }) {
     <>
       <Head>
         <title>Muhammed Adel</title>
-       
       </Head>
 
       <Header top={top} />
@@ -48,14 +47,11 @@ export default function Home({ repoList }) {
         <About about={about} />
         <Experience experience={experience} />
         <Projects repoList={repoList} />
+        <div className="tooltip fixed z-50 bottom-20 right-8 border-0 decoration-transparent w-12" data-tip={'Back to top'}>
+          <a className='btn fixed z-50 bottom-8 right-8 border-0 decoration-transparent w-12' href='#top'> <i className="fa fa-solid fa-arrow-up" /> </a>
+        </div>
+        <Footer headLine={headLine} />
       </div>
-
-      <div className="tooltip fixed z-50 bottom-20 right-8 border-0 decoration-transparent w-12" data-tip={'Back to top'}>
-        <a className='btn fixed z-50 bottom-8 right-8 border-0 decoration-transparent w-12' href='#top'> <i className="fa fa-solid fa-arrow-up" /> </a>
-      </div>
-
-      <Footer headLine={headLine}/>
-
     </>
   )
 }

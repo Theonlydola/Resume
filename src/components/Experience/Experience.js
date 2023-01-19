@@ -1,11 +1,11 @@
 import Image from "next/image"
 export default function Experience({ experience }) {
     return (
-        <div id="experience" className="flex-col overflow-auto justify-center container lg:flex-row">
-            <div className="flex justify-start">
+        <div id="experience" className="flex-col justify-center container lg:flex-row">
+            <div className="flex justify-start items-center">
                 <h1 className="text-4xl font-bold p-5 pb-6 sm:text-6xl">{experience.title}</h1>
                 <a
-                    className="btn btn-secondary ml-5 w-12 lg:mt-9 md:mt-8 sm:mt-7"
+                    className="btn btn-secondary ml-5 w-12"
                     href={'#projects'}
                     aria-label="go to projects"
                     role="button"
@@ -15,9 +15,9 @@ export default function Experience({ experience }) {
             </div>
             <div className="lg:px-20 sm:px-15">
                 {experience.experience.map((e, index) => (
-                    <div key={index} className="flex min-w-full shadow-xl my-5 bg-base-100 rounded-lg  flex-col lg:flex-row">
-                        <div className="rounded-l-lg shadow-xl bg-base-100 sm:w-72">
-                            <figure><Image width={144} height={144} className="min-w-full rounded-tl-lg" src={e.imageSrc} alt={e.company} /></figure>
+                    <div key={index} className="flex min-w-full shadow-xl mb-5 p-5 bg-base-100 rounded-lg  justify-start flex-col lg:flex-row">
+                        <div className="lg:rounded-lg sm:rounded-lg lg:shadow-xl bg-base-100 sm:w-72 sm:shadow-none">
+                            <figure><Image width={144} height={144} className="min-w-full rounded-lg" src={e.imageSrc} alt={e.company} /></figure>
                             <h2 className="font-bold m-4 p-5 text-3xl justify-center flex">{e.company}</h2>
                         </div>
 

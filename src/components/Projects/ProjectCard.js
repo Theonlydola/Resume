@@ -6,7 +6,7 @@ function Date(dateString) {
 }
 
 export default function ProjectCard({ repo }) {
-    return (<div className="card xl:w-96 bg-base-100 shadow-xl lg:w-96 md:w-72 sm:w-32">
+    return (<div className="card xl:w-96 bg-base-100 shadow-lg lg:w-96 md:w-72 sm:w-32">
         <div className="card-body">
             <h2 className="card-title">{repo.name}</h2>
             <p> {repo.description}</p>
@@ -35,7 +35,6 @@ export default function ProjectCard({ repo }) {
                 </a>
             </div>
             <div className="divider"></div>
-            <p>Languages</p>
             <p>Last Updated: {Date(repo.updated_at)}</p>
         </div>
     </div>)

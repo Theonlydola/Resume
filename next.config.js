@@ -4,13 +4,16 @@ const nextConfig = {
 }
 
 module.exports = {
-  webpack: (config, options) =>
-  {
-      config.module.rules.push({
-          test: /\.pdf$/i,
-          type: 'asset/source'
-      })
+  basePath: '/Resume',
+  images: {
+    unoptimized: true,
+  },
+  webpack: (config, options) => {
+    config.module.rules.push({
+      test: /\.pdf$/i,
+      type: 'asset/source'
+    })
 
-      return config
+    return config
   },
 }

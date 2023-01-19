@@ -40,7 +40,7 @@ export const experience = {
     title: 'Experience',
     experience: [
         {
-            imageSrc: '/Resume/images/ibm.webp',
+            imageSrc: '/images/ibm.webp',
             company: 'IBM',
             role: 'Full Stack Developer',
             startDate: '02/2022',
@@ -52,7 +52,7 @@ export const experience = {
             ]
         },
         {
-            imageSrc: '/Resume/images/ibm.webp',
+            imageSrc: '/images/ibm.webp',
             company: 'IBM',
             role: 'Web Development Intern',
             startDate: '08/2021',
@@ -64,7 +64,7 @@ export const experience = {
             ]
         },
         {
-            imageSrc: '/Resume/images/techhive.png',
+            imageSrc: '/images/techhive.png',
             company: 'Tech Hive',
             role: 'Business Development Representative',
             startDate: '09/2020',
