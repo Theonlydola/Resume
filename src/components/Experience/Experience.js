@@ -1,3 +1,4 @@
+import Image from "next/image"
 export default function Experience({ experience }) {
     return (
         <div id="experience" className="flex-col overflow-auto justify-center container lg:flex-row">
@@ -16,7 +17,7 @@ export default function Experience({ experience }) {
                 {experience.experience.map((e, index) => (
                     <div key={index} className="flex min-w-full shadow-xl my-5 bg-base-100 rounded-lg  flex-col lg:flex-row">
                         <div className="rounded-l-lg shadow-xl bg-base-100 sm:w-72">
-                            <figure><img className="min-w-full rounded-tl-lg" src={e.imageSrc} alt={e.company} /></figure>
+                            <figure><Image width={144} height={144} className="min-w-full rounded-tl-lg" src={e.imageSrc} alt={e.company} /></figure>
                             <h2 className="font-bold m-4 p-5 text-3xl justify-center flex">{e.company}</h2>
                         </div>
 

@@ -1,11 +1,12 @@
 import styles from './About.module.css'
+import Image from 'next/image'
 export default function About({ about }) {
     return (
         <>
             <div id='about' className={styles.container}>
                 <div className="hero min-h-screen">
                     <div className="hero-content flex-col lg:flex-row">
-                        <img src='/images/pp.jpg' className="max-w-xs rounded-full shadow-2xl sm:max-w-xs  hover:max-w-xs " />
+                        <Image src='/images/pp.jpg' width={500} height={500} className="max-w-xs rounded-full shadow-2xl sm:max-w-xs  hover:max-w-xs " />
                         <div className="ml-4 mr-4">
                             <div className='flex justify-start'>
                                 <h1 className="text-4xl font-bold sm:text-6xl">{about.title}</h1>
