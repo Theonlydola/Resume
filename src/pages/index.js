@@ -8,6 +8,7 @@ import { fetchRepos } from '@/helpers/fetchRepos'
 import Projects from '@/components/Projects/Projects'
 import { useEffect, useState } from 'react'
 import Header from '@/components/Header/Header'
+import Script from 'next/script'
 
 export async function getStaticProps({ }) {
   const repoList = await fetchRepos();
@@ -38,12 +39,9 @@ export default function Home({ repoList }) {
     <>
       <Head>
         <title>Muhammed Adel</title>
-        <link href="https://cdn.jsdelivr.net/npm/daisyui@2.47.0/dist/full.css" rel="stylesheet" type="text/css" />
-        <script src="https://cdn.tailwindcss.com"></script>
-        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossOrigin="anonymous" />
+       
       </Head>
-      
+
       <Header top={top} />
 
       <div className='flex flex-col'>

@@ -33,7 +33,6 @@ export default function About({ about }) {
                                 </span>
                                 <i className='fa fa-download ml-3' />
                             </a>
-
                         </div>
                     </div>
                 </div>
