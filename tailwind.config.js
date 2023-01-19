@@ -24,14 +24,14 @@ module.exports = {
   plugins: [require("daisyui")],
 
   // daisyUI config (optional)
-  daisyui: {
-    styled: true,
-    themes: ['light', 'dark'],
-    base: true,
-    utils: true,
-    logs: true,
-    rtl: false,
-    prefix: "",
-    darkTheme: "dark",
-  },
+  // daisyui: {
+  //   styled: true,
+  //   themes: ['light', 'cupcake', 'dark'],
+  //   base: true,
+  //   utils: true,
+  //   logs: true,
+  //   rtl: false,
+  //   prefix: "",
+  //   darkTheme: "dark",
+  // },
 }
