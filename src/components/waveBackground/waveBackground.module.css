@@ -46,12 +46,18 @@
   text-align: center;
 }
 
-.moving{
+.moving {
   animation: move 5s infinite;
 }
 
-.moving:hover{
+.moving:hover {
   animation: none;
+}
+
+@media (hover: none) {
+  .moving {
+    animation: none;
+  }
 }
 
 .waves {
