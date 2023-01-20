@@ -27,6 +27,8 @@ export default function About({ about }) {
                                 href={'/Resume/Muhammed_Adel_CV.pdf'}
                                 aria-label="Resume/CV"
                                 role="button"
+                                target="_blank"
+                                rel="noopener noreferrer"
                             >
                                 <span>
                                     Download Resume
