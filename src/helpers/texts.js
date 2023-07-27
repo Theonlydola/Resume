@@ -40,7 +40,7 @@ export const experience = {
     title: 'Experience',
     experience: [
         {
-            imageSrc: '/images/trella.webp',
+            imageSrc: '/images/trella.jpeg',
             company: 'Trella',
             role: 'Frontend Developer',
             startDate: '03/2023',
