@@ -40,15 +40,27 @@ export const experience = {
     title: 'Experience',
     experience: [
         {
+            imageSrc: '/images/trella.webp',
+            company: 'Trella',
+            role: 'Frontend Developer',
+            startDate: '03/2023',
+            endDate: 'Present',
+            description: [
+                `Contributed to the application’s design system UI kit by implementing 5+ generic reusable react components.`,
+                `Introduced react-aria hooks to the application making an enhancement to the code complexity.`,
+                `Collaborated with the product team in designing new features, handling edge cases, and UX.`,
+            ]
+        },
+        {
             imageSrc: '/images/ibm.webp',
             company: 'IBM',
             role: 'Full Stack Developer',
             startDate: '02/2022',
-            endDate: 'Present',
+            endDate: '02/2023',
             description: [
-                `Collaborated with the logistics team to significantly enhance the customer support tools.`,
-                `Utilized React.js and Redux.js to create front-end applications.`,
-                `Developed backend services using Node.js, Express.js, and Cloudant DB. `,
+                `Collaborated remotely with the global logistics team in the US to significantly enhance the customer support tools by 85%.`,
+                `Proven trackable record of delivering projects with high-quality UI and Experience with modern front-end UI technologies.`,
+                `Managed Tracking Docs loaded from the Cloudant DB using Redux Toolkit and React states.`,
             ]
         },
         {
